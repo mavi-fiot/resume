@@ -1,0 +1,49 @@
+
+
+
+
+.wrapper {
+    display: flex;
+    max-width: 23cm; 
+    margin: 0 auto; /* Вирівнюємо по центру */
+    background-color: #eff0f0c7;
+}
+section {
+    float: right;
+    width: calc(75%); /* 75% ширини сторінки мінус відступ */
+   
+    background: #f9f9fa;
+}
+aside {
+    float: left;
+    width: calc(25%); /* 25% ширини сторінки мінус відступ */
+    
+    background: #d5d5d5;
+}
+
+.center-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin-bottom: 20px;*/
+}
+
+aside img {
+    box-shadow: 10px 10px 5px rgba(181, 181, 181, 0.97);
+    display: block;
+    margin: 20px auto; /* Мінімальний відступ від верхнього краю */
+    }
+
+h1 {color:rgb(15, 140, 250)}
+
+.highlight {color:rgb(15, 140, 250)}
+
+a {color:rgb(15, 140, 250)}
+
+.menu_r {padding-left: 15px;
+    padding-right: 5px
+    }
+.text_r {padding-left: 15px;
+    padding-right: 20px
+    }
+
